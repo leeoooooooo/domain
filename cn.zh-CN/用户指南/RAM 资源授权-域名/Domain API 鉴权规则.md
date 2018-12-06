@@ -12,7 +12,6 @@
 |:--|:--------|:----------|
 |[SaveSingleTaskForUpdatingContactInfo](../../../../intl.zh-CN/API 参考/域名管理接口/提交域名信息修改任务.md#)|domain:DomainInfoModification|acs:domain:\*:$accountid:domain/$domainName |
 |[SaveBatchTaskForUpdatingContactInfo](../../../../intl.zh-CN/API 参考/域名管理接口/提交批量通过新联系人信息域名信息修改任务.md#)|acs:domain:\*:$accountid:domain/$domainName |
-|[SaveBatchTaskForUpdatingContactInfoByNewContact](../../../../intl.zh-CN/API 参考/域名管理接口/提交批量通过模板域名信息修改任务.md#)|acs:domain:\*:$accountid:domain/$domainName |
 |[TransferInReenterTransferAuthorizationCode](../../../../intl.zh-CN/API 参考/域名管理接口/域名转入重新输入转移密码.md#)|domain:DomainTransferInOperation|acs:domain:\*:$accountid:domain/$domainName |
 |[TransferInRefetchWhoisEmail](../../../../intl.zh-CN/API 参考/域名管理接口/域名转入重新抓取whois邮箱.md#)|acs:domain:\*:$accountid:domain/$domainName |
 |[TransferInResendMailToken](../../../../intl.zh-CN/API 参考/域名管理接口/域名转入重新发送验证邮件.md#)|acs:domain:\*:$accountid:domain/$domainName |
