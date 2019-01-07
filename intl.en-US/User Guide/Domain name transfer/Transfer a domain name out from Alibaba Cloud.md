@@ -2,17 +2,17 @@
 
 ## Procedure {#section_zhk_zjx_12b .section}
 
-1.  Log on to the [Alibaba Cloud Domains console](https://dc.console.aliyun.com). Select the domains to transfer and click **Manage**.
-2.  On the Basic Information page, click **Domain Transfer-Out** from the left-side navigation pane. 
-3.  Verify the registrant’s email address and click **Next** .  
-4.  Under the email address, click **Get Verification Code** and enter the verification code sent to the email address, and click **Next**.
-5.  Click Send Transfer Code, enter the verification code sent to the email address, and click Next.
-6.  If you have not received the email, click Obtain the transfer code again.  If the email address is incorrect,  click Registrant’s email address to modify it.
+1.  Log on to the [Alibaba Cloud Domains console](https://dc.console.aliyun.com). Locate the domains to transfer and click **Manage**.
+2.  On the Basic Information page, click **Domain Transfer-Out** from the left-side navigation pane.    
+3.  Verify the registrant’s email address and click **Next**.              
+4.  Enter the verification code sent to the email address,  and click **Next**.    
+5.  Go to your new registrar’s portal to initiate a transfer-in process.
+6.  Upon receiving the request for domain transfer to another registrar, Alibaba Cloud automatically sends a confirmation email for domain transfer to the registrant’s email address. Generally, it takes up to five days for domains to automatically transfer out. If you want to cancel the transfer, follow the instructions in the email.
 
-You must initiate a transfer process on your new registrar’s portal, enter the authorization code and submit the request. The transfer process may vary in different registrars.
+You must initiate a transfer process on your new registrar’s portal. 
 
-1.  Upon receiving the request for domain transfer to another registrar, Alibaba Cloud automatically sends a confirmation email for domain transfer to the registrant’s email address.
-2.  Generally, it takes up to five days for domains to automatically transfer out. If you want to cancel the transfer, follow the instructions in the email.
+1.  Enter the authorization code and submit the request. 
+2.  Your new registrar will send you an email. Log on to your confirmation mailbox to confirm the transfer.
 
-You must check the confirmation email sent from your new registrar.
+The transfer process may vary in different registrars.
 
