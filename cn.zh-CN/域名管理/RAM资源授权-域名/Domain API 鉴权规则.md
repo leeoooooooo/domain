@@ -34,7 +34,9 @@
 |[SaveSingleTaskForUpdateProhibitionLock](../../../../../cn.zh-CN/API 参考/域名管理接口/提交禁止更新锁任务.md#)|acs:domain:\*:$accountid:domain/$domainName |
 |[SaveBatchTaskForUpdateProhibitionLock](../../../../../cn.zh-CN/API 参考/域名管理接口/提交批量禁止更新锁任务.md#)|acs:domain:\*:$accountid:domain/$domainName|
 |[SaveSingleTaskForCreatingOrderRenew](../../../../../cn.zh-CN/API 参考/域名管理接口/提交域名续费任务.md#)|domain:CreateOrderRenew|acs:domain:\*:$accountid:domain/$domainName |
+|[SaveBatchTaskForCreatingOrderRenew](../../../../../cn.zh-CN/API 参考/域名管理接口/提交批量域名续费任务.md#)|acs:domain:\*:$accountid:domain/$domainName |
 |[SaveSingleTaskForCreatingOrderRedeem](../../../../../cn.zh-CN/API 参考/域名管理接口/提交域名赎回任务.md#)|domain:CreateOrderRedeem|acs:domain:\*:$accountid:domain/$domainName |
+|[SaveBatchTaskForCreatingOrderRedeem](../../../../../cn.zh-CN/API 参考/域名管理接口/提交批量域名赎回任务.md#)|acs:domain:\*:$accountid:domain/$domainName |
 
 |API|鉴权 Action|鉴权 Resource|
 |:--|:--------|:----------|
@@ -77,7 +79,9 @@
 |[SubmitEmailVerification](../../../../../cn.zh-CN/API 参考/域名管理接口/发送邮件验证邮件.md#)|acs:domain:\*:$accountid:\* |
 |[SaveBatchDomainRemark](../../../../../cn.zh-CN/API 参考/域名管理接口/批量保存域名备注.md#)|domain:DomainInfoModification|acs:domain:\*:$accountid:\* |
 |[SaveSingleTaskForCreatingOrderActivate](../../../../../cn.zh-CN/API 参考/域名管理接口/提交域名注册任务.md#)|domain:CreateOrderActivate|acs:domain:\*:$accountid:\* |
-|[SaveBatchTaskForCreatingOrderTransfer](../../../../../cn.zh-CN/API 参考/域名管理接口/提交批量域名转入任务.md#)|domain:CreateOrderTransfer|acs:domain:\*:$accountid:\* |
+|[SaveBatchTaskForCreatingOrderActivate](../../../../../cn.zh-CN/API 参考/域名管理接口/提交批量域名注册任务.md#)|acs:domain:\*:$accountid:\* |
+|[SaveSingleTaskForCreatingOrderTransfer](../../../../../cn.zh-CN/API 参考/域名管理接口/提交域名转入任务.md#)|domain:CreateOrderTransfer|acs:domain:\*:$accountid:\* |
+|[SaveBatchTaskForCreatingOrderTransfer](../../../../../cn.zh-CN/API 参考/域名管理接口/提交批量域名转入任务.md#)|acs:domain:\*:$accountid:\* |
 
 |API|鉴权 Action|鉴权 Resource|
 |:--|:--------|:----------|
