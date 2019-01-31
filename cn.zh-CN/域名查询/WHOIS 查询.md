@@ -8,7 +8,7 @@
 
 对于阿里云提供注册服务的域名，用户在[阿里云域名查询（WHOIS）](https://whois.aliyun.com/)页面，输入待查询域名后单击**查询**，即可查询域名相关信息。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/14338/154865776738073_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/14338/154892600238073_zh-CN.png)
 
 其中：
 
@@ -31,5 +31,5 @@
     DNS服务器显示了您域名当前的解析服务器，如果您想修改DNS，可参考 [域名DNS修改](../../../../../cn.zh-CN/域名管理/域名 DNS修改.md#) 章节。
 
 
-**说明：** 不同类型的域名查询结果显示出的域名注册信息项目不完全一致，您可以参考 [WHOIS查询参考：域名注册信息的含义](cn.zh-CN/域名查询/WHOIS查询参考：域名注册信息的含义.md#) 章节了解查询结果的项目含义。
+**说明：** 不同类型的域名查询结果显示出的域名注册信息项目不完全一致，您可以参考 [WHOIS查询参考：域名注册信息的含义](cn.zh-CN/域名查询/WHOIS查询参考：域名注册信息的含义.md#) 章节了解查询结果的项目含义，参考 [Whois信息显示调整FAQ和ICANN临时规范的常见问题](https://help.aliyun.com/knowledge_detail/72403.html) 章节了解处理WHOIS信息查询结果相关问题。
 
