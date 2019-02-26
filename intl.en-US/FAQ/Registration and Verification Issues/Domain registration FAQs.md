@@ -36,7 +36,7 @@ When you fill the domain name registration information, the contact number is ma
 
 ## How long can I register a domain name for? {#section_isx_s2d_b2b .section}
 
-The .co domain names can be registered for up to five years. Domain names other than .co, such as the .com/.net/.cn domain names, can be registered for up to ten years.
+Common domain names such as .com/.net/.cn can be registered for up to ten years.
 
 ## What is the difference between the domain registrant and administrative contact? {#section_jsx_s2d_b2b .section}
 
