@@ -86,7 +86,7 @@ If your order stays in the processing status after you make the payment, conside
 
 ## .hk domain name {#section_usx_s2d_b2b .section}
 
-The domain name registration management institution for .hk domain names is [Hong Kong Domain Name Registration Company Limited \(HKDNR\)](https://www.hkdnr.hk/).
+The domain name registration management institution for .hk domain names is [Hong Kong Domain Name Registration Company Limited \(HKDNR\)](https://www.hkdnr.hk/en/).
 
 .hk domain name registration is on a first come first served basis. If you have any dispute over any domain name, contact [Hong Kong International Arbitration Center](http://www.hkiac.org/).
 
