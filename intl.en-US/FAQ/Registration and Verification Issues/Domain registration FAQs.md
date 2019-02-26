@@ -1,15 +1,15 @@
 # Domain registration FAQs {#concept_k3f_c2d_b2b .concept}
 
--   [What can I do if my expected domain name has been registered by another person/entity?](reseller.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_esx_s2d_b2b)
--   [Can I register multiple domain names for the same website?](reseller.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_fsx_s2d_b2b)
--   [What kind of contact number is required in the domain registration information?](reseller.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_hsx_s2d_b2b)
--   [How long can I register a domain name for?](reseller.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_isx_s2d_b2b)
--   [What is the difference between the domain registrant and administrative contact?](reseller.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_jsx_s2d_b2b)
--   [Can I request for a refund or change the order once I make the payment for a domain name?](reseller.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_ksx_s2d_b2b)
--   [Do I need to submit the same materials multiple times if I want to register multiple domain names with the same information?](reseller.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_msx_s2d_b2b)
--   [How can I know if a domain name has been registered successfully?](reseller.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_qsx_s2d_b2b)
--   [What can I do if the domain name I purchased remains in the processing status?](reseller.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_ssx_s2d_b2b)
--   [.hk domain name](reseller.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_usx_s2d_b2b)
+-   [What can I do if my expected domain name has been registered by another person/entity?](intl.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_esx_s2d_b2b)
+-   [Can I register multiple domain names for the same website?](intl.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_fsx_s2d_b2b)
+-   [What kind of contact number is required in the domain registration information?](intl.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_hsx_s2d_b2b)
+-   [How long can I register a domain name for?](intl.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_isx_s2d_b2b)
+-   [What is the difference between the domain registrant and administrative contact?](intl.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_jsx_s2d_b2b)
+-   [Can I request for a refund or change the order once I make the payment for a domain name?](intl.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_ksx_s2d_b2b)
+-   [Do I need to submit the same materials multiple times if I want to register multiple domain names with the same information?](intl.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_msx_s2d_b2b)
+-   [How can I know if a domain name has been registered successfully?](intl.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_qsx_s2d_b2b)
+-   [What can I do if the domain name I purchased remains in the processing status?](intl.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_ssx_s2d_b2b)
+-   [.hk domain name](intl.en-US/FAQ/Registration and Verification Issues/Domain registration FAQs.md#section_usx_s2d_b2b)
 
 ## What can I do if my expected domain name has been registered by another person/entity? {#section_esx_s2d_b2b .section}
 
@@ -17,7 +17,7 @@ Domain names are unique. When a domain name has been registered successfully, it
 
 If you really want to own a domain name that has already been registered by others, generally you can only negotiate with the current registrant of the domain name, and see if the registrant is willing to transfer the domain name to you.
 
-You can enter the domain name to view its current registrant through Alibaba Cloud WHOIS .
+You can enter the domain name to view its current registrant through [Alibaba Cloud WHOIS](https://www.alibabacloud.com/whois).
 
 ## Can I register multiple domain names for the same website? {#section_fsx_s2d_b2b .section}
 
@@ -67,7 +67,7 @@ To do this, you must add all these domain names to the shopping cart and make pa
 
 ## How can I know if a domain name has been registered successfully? {#section_qsx_s2d_b2b .section}
 
-Go to the Alibaba Cloud Domain service homepage, enter you domain name, and click **Search** to search the target domain name.
+Go to the [Alibaba Cloud Domain service](https://www.alibabacloud.com/domain) homepage, enter you domain name, and click **Search** to search the target domain name.
 
 The result can tell you whether or not the target domain name has been registered. For a domain name that already be **Taken**, you can go to Whois system to view its registration information. Check the information of the domain name. If the domain name information is not your information, log on to the console to modify it.
 
