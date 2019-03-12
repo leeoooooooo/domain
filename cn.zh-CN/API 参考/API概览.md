@@ -22,7 +22,6 @@
 |[SaveBatchTaskForUpdatingContactInfoByRegistrantProfileId](cn.zh-CN/API 参考/域名管理接口/提交批量通过模板域名信息修改任务.md#)|提交批量通过模板域名信息修改任务|
 |[SaveBatchTaskForCreatingOrderActivate](cn.zh-CN/API 参考/域名管理接口/提交批量域名注册任务.md#)|提交批量域名注册任务|
 |[SaveBatchTaskForCreatingOrderRenew](cn.zh-CN/API 参考/域名管理接口/提交批量域名续费任务.md#)|提交批量域名续费任务|
-|[SaveBatchTaskForDomainNameProxyService](cn.zh-CN/API 参考/域名管理接口/提交批量域名隐私保护服务任务.md#)|提交批量域名隐私保护服务任务|
 |[SaveBatchTaskForUpdateProhibitionLock](cn.zh-CN/API 参考/域名管理接口/提交批量禁止更新锁任务.md#)|提交批量禁止更新锁任务|
 |[SaveBatchTaskForTransferProhibitionLock](cn.zh-CN/API 参考/域名管理接口/提交批量禁止转移锁任务.md#)|提交批量禁止转移锁任务|
 |[QueryTaskList](cn.zh-CN/API 参考/域名管理接口/查询任务列表.md#)|查询域名任务列表|
@@ -60,7 +59,6 @@
 |[SaveSingleTaskForCreatingOrderRedeem](cn.zh-CN/API 参考/域名管理接口/提交域名赎回任务.md#)|提交域名赎回任务|
 |[SaveBatchTaskForCreatingOrderRedeem](cn.zh-CN/API 参考/域名管理接口/提交批量域名赎回任务.md#)|提交批量域名赎回任务|
 |[SaveSingleTaskForCreatingDnsHost](cn.zh-CN/API 参考/域名管理接口/提交创建dnshost任务.md#)|提交创建dnshost任务|
-|[SaveSingleTaskForDomainNameProxyService](cn.zh-CN/API 参考/域名管理接口/提交域名隐私保护服务任务.md#)|提交域名隐私保护服务任务|
 |[SaveSingleTaskForModifyingDnsHost](cn.zh-CN/API 参考/域名管理接口/提交修改dnshost任务.md#)|提交修改dnshost任务|
 |[SaveSingleTaskForSynchronizingDnsHost](cn.zh-CN/API 参考/域名管理接口/提交同步dnshost任务.md#)|提交同步dnshost任务|
 |[SaveSingleTaskForTransferProhibitionLock](cn.zh-CN/API 参考/域名管理接口/提交禁止转移锁任务.md#)|提交禁止转移锁任务|
