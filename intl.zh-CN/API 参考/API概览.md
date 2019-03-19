@@ -28,17 +28,12 @@
 |[QueryTaskDetailList](intl.zh-CN/API 参考/域名管理接口/查询任务详情.md#)|查询域名任务的详情列表|
 |[QueryTaskDetailHistory](intl.zh-CN/API 参考/域名管理接口/查询任务历史详情.md#)|查询域名任务的详情历史列表|
 |[CheckDomain](intl.zh-CN/API 参考/域名管理接口/检查域名是否可以注册.md#)|检查域名是否可以注册接口|
-|[FuzzyMatchDomainSensitiveWord](intl.zh-CN/API 参考/域名管理接口/检查是否包含敏感词.md#)|检查是否包含敏感词|
-|[BatchFuzzyMatchDomainSensitiveWord](intl.zh-CN/API 参考/域名管理接口/批量检查是否包含敏感词.md#)|批量检查是否包含敏感词|
-|[CheckDomainSunriseClaim](intl.zh-CN/API 参考/域名管理接口/查询商标词key.md#)|查询商标词key|
-|[LookupTmchNotice](intl.zh-CN/API 参考/域名管理接口/域名查询商标词tmch信息.md#)|查询tmch信息|
 |[AcknowledgeTaskResult](intl.zh-CN/API 参考/域名管理接口/确认任务详情结果.md#)|确认任务详情结果|
 |[CheckTransferInFeasibility](intl.zh-CN/API 参考/域名管理接口/校验域名是否可以转入.md#)|校验域名是否可以转入|
 |[PollTaskResult](intl.zh-CN/API 参考/域名管理接口/查询已经执行完成的任务详情列表.md#)|查询已经执行完成的任务详情列表|
 |[QueryTransferInByInstanceId](intl.zh-CN/API 参考/域名管理接口/根据实例编号查询域名转入信息.md#)|根据实例编号查询域名转入信息|
 |[QueryTransferInList](intl.zh-CN/API 参考/域名管理接口/查询域名转入列表.md#)|查询域名转入列表|
 |[QueryTransferOutInfo](intl.zh-CN/API 参考/域名管理接口/查询域名转出信息.md#)|查询域名转出信息|
-|[QueryDomainAdminDivision](intl.zh-CN/API 参考/域名管理接口/查询中国行政区划.md#)|查询中国行政区划|
 |[SaveSingleTaskForCancelingTransferIn](intl.zh-CN/API 参考/域名管理接口/提交取消域名转入任务.md#)|提交取消域名转入任务|
 |[SaveSingleTaskForCancelingTransferOut](intl.zh-CN/API 参考/域名管理接口/提交取消域名转出任务.md#)|提交取消域名转出任务|
 |[SaveSingleTaskForQueryingTransferAuthorizationCode](intl.zh-CN/API 参考/域名管理接口/提交获取域名转移密码任务.md#)|提交获取域名转移密码任务|
@@ -56,9 +51,6 @@
 |[SaveSingleTaskForUpdateProhibitionLock](intl.zh-CN/API 参考/域名管理接口/提交禁止更新锁任务.md#)|提交禁止更新锁任务|
 |[SaveSingleTaskForUpdatingContactInfo](intl.zh-CN/API 参考/域名管理接口/提交域名信息修改任务.md#)|提交域名域名信息修改任务|
 |[QueryDnsHost](intl.zh-CN/API 参考/域名管理接口/查询域名DnsHost.md#)|查询域名dnshost|
-|[SaveBatchDomainRemark](intl.zh-CN/API 参考/域名管理接口/批量保存域名备注.md#)|批量保存域名备注信息|
-|[QueryDomainSuffix](intl.zh-CN/API 参考/域名管理接口/高级搜索后缀列表.md#)|高级搜索自己账户下后缀列表|
-|[QueryAdvancedDomainList](intl.zh-CN/API 参考/域名管理接口/高级搜索域名列表.md#)|高级搜索自己账号下域名列表|
 
 ## 信息模板接口 {#section_zdt_d3b_b2b .section}
 
