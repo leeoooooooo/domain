@@ -6,11 +6,11 @@
 
 -   域名后缀类型：
 
-    阿里云还未全面支持所有后缀类型域名的DNSSEC设置，目前支持.com/.net/.cc/.tv/.name/.info/.mobi/.pro/.xin/.biz/.club等域名的DNSESEC设置，不支持DNSSEC设置的域名在其控制台中无**DNSSEC设置**入口。实际支持情况以控制台左侧菜单显示为准。
+    阿里云还未全面支持所有后缀类型域名的DNSSEC设置，目前支持.com/.net/.cc/.tv/.name/.info/.mobi/.pro/.xin/.biz/.club等域名的DNSSEC设置，不支持DNSSEC设置的域名在其控制台中无**DNSSEC设置**入口。实际支持情况以控制台左侧菜单显示为准。
 
 -   域名解析渠道：
 
-    使用非阿里云解析服务进行DNS解析的域名，可以按照如下步骤设置和查看DNSSEC。使用阿里云解析服务进行DNS解析的域名暂无法成功的进行DNSSSEC设置操作。
+    使用非阿里云解析服务进行DNS解析的域名，可以按照如下步骤设置和查看DNSSEC。使用阿里云解析服务进行DNS解析的域名暂无法成功的进行DNSSEC设置操作。
 
 
 ## 操作步骤 {#section_ivq_4n5_jgb .section}
@@ -31,7 +31,7 @@
 
 6.  在弹出的页面中填写参数信息，填写完成确认无误后单击**提交**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/85415/154694050236516_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/85415/155315305036516_zh-CN.png)
 
-7.  在弹出的窗口中单击**获取验证码**，收到验证码后填写人输入框中，完成邮件的验证码安全验证。
+7.  在弹出的窗口中单击**获取验证码**，收到验证码后填写人输入框中，完成短信的验证码安全验证。
 
