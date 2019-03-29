@@ -4,7 +4,7 @@ This topic describes how to register a generic domain name that uses a generic t
 
 ## The following procedure shows how to purchase a domain name. {#section_w1w_krv_12b .section}
 
-1.  Log on to the [Alibaba Cloud Domain website](https://www.alibabacloud.com/zh/domain). If you do not have an Alibaba Cloud account, register one first.
+1.  Log on to the [Alibaba Cloud Domain website](https://www.alibabacloud.com/domain). If you do not have an Alibaba Cloud account, register one first.
 2.  Enter a domain name and click **Find A Domain**.
 3.  Select a domain name from the search results and click **Add to cart**.
 4.  Select the domain name in **Shopping Cart** and click **Buy Now**
