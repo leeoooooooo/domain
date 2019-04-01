@@ -49,7 +49,7 @@
 |[SaveSingleTaskForSynchronizingDnsHost](intl.zh-CN/API 参考/域名管理接口/提交同步dnshost任务.md#)|提交同步dnshost任务|
 |[SaveSingleTaskForTransferProhibitionLock](intl.zh-CN/API 参考/域名管理接口/提交禁止转移锁任务.md#)|提交禁止转移锁任务|
 |[SaveSingleTaskForUpdateProhibitionLock](intl.zh-CN/API 参考/域名管理接口/提交禁止更新锁任务.md#)|提交禁止更新锁任务|
-|[SaveSingleTaskForUpdatingContactInfo](intl.zh-CN/API 参考/域名管理接口/提交域名信息修改任务.md#)|提交域名域名信息修改任务|
+|[SaveSingleTaskForUpdatingContactInfo](intl.zh-CN/API 参考/域名管理接口/提交域名信息修改任务.md#)|提交域名信息修改任务|
 |[QueryDnsHost](intl.zh-CN/API 参考/域名管理接口/查询域名DnsHost.md#)|查询域名dnshost|
 
 ## 信息模板接口 {#section_zdt_d3b_b2b .section}
