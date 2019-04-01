@@ -63,7 +63,7 @@
 |[SaveSingleTaskForSynchronizingDnsHost](cn.zh-CN/API 参考/域名管理接口/提交同步dnshost任务.md#)|提交同步dnshost任务|
 |[SaveSingleTaskForTransferProhibitionLock](cn.zh-CN/API 参考/域名管理接口/提交禁止转移锁任务.md#)|提交禁止转移锁任务|
 |[SaveSingleTaskForUpdateProhibitionLock](cn.zh-CN/API 参考/域名管理接口/提交禁止更新锁任务.md#)|提交禁止更新锁任务|
-|[SaveSingleTaskForUpdatingContactInfo](cn.zh-CN/API 参考/域名管理接口/提交域名信息修改任务.md#)|提交域名域名信息修改任务|
+|[SaveSingleTaskForUpdatingContactInfo](cn.zh-CN/API 参考/域名管理接口/提交域名信息修改任务.md#)|提交域名信息修改任务|
 |[QueryDnsHost](cn.zh-CN/API 参考/域名管理接口/查询域名DnsHost.md#)|查询域名dnshost|
 |[DeleteDomainGroup](cn.zh-CN/API 参考/域名管理接口/删除域名分组.md#)|删除域名分组|
 |[SaveDomainGroup](cn.zh-CN/API 参考/域名管理接口/保存域名分组.md#)|保存域名分组|
