@@ -23,7 +23,7 @@ The following example describes how to install and use the Java SDK:
         <repositories>
              <repository>
                  <id>sonatype-nexus-staging</id>
-                 name>Sonatype Nexus Staging</name>
+                 <name>Sonatype Nexus Staging</name>
                  <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
                  <releases>
                      <enabled>true</enabled>
