@@ -4,7 +4,7 @@ Create or save a domain registrant information template.
 
 ## Request parameters {#section_v4h_whc_b2b .section}
 
-For more information about public request parameters, see [Public parameters](intl.en-US/API Reference (New)/Calling method/Public parameters.md#).
+For more information about public request parameters, see [Public parameters](reseller.en-US/API Reference (New)/Calling method/Public parameters.md#).
 
 |Parameter|Type|Required|Description|
 |:--------|:---|:-------|:----------|
@@ -13,15 +13,15 @@ For more information about public request parameters, see [Public parameters](in
 |Telephone|String|Required in template update and empty in template creation.|Phone number.|
 |DefaultRegistrantProfile|Boolean|Required in template update and empty in template creation.|Whether it is the default template.|
 |Country|String|Required in template update and empty in template creation.|Country code, such as CN or US.|
-|Province|String|Required in template update and empty in template creation.| Province.|
+|Province|String|Required in template update and empty in template creation.|Province.|
 |TelArea|String|Required in template update and empty in template creation.|Country dialing code.|
-|City|String|Required in template update and empty in template creation.|City. |
-|PostalCode|String|Required in template update and empty in template creation.| Zip code.|
+|City|String|Required in template update and empty in template creation.|City.|
+|PostalCode|String|Required in template update and empty in template creation.|Zip code.|
 |Email|String|Required in template update and empty in template creation.|Email address.|
-|Address|String|Required in template update and empty in template creation.|Specific address。|
+|Address|String|Required in template update and empty in template creation.|Specific address.|
 |RegistrantName|String|Required in template update and empty in template creation.|Contact name.|
-|RegistrantOrganization|String|Required in template update and empty in template creation.| Owner name.|
-|TelExt|String|No| Extension number|
+|RegistrantOrganization|String|Required in template update and empty in template creation.|Owner name.|
+|TelExt|String|No|Extension number|
 
 ## Response parameters { .section}
 
