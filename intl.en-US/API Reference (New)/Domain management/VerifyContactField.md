@@ -20,11 +20,11 @@ The VerifyContactField API verifies domain name contact information.
 |TelExt|String|No|01|Extension number.|
 |Telephone|string|No|13800000000|Phone number.|
 |UserClientIp|String|No|127.0.0.1|User IP address.|
-|ZhAddress|String|No|西土城路|Chinese address.|
+|ZhAddress|String|No|Xitu Road|Chinese address.|
 |Zhcity|string|No|Beijing|Chinese city.|
-|ZhProvince|String|No|北京|Chinese province.|
-|ZhRegistrantName|String|No|张三|Chinese contact name.|
-|ZhRegistrantOrganization|String|No|张三|Chinese registrant’s name.|
+|ZhProvince|String|No|Beijing|Chinese province.|
+|ZhRegistrantName|String|No|ZhangSan|Chinese contact name.|
+|ZhRegistrantOrganization|String|No|ZhangSan|Chinese registrant’s name.|
 
 ## Response parameters {#section_u3g_bvq_b2b .section}
 
