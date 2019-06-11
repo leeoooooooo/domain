@@ -51,6 +51,17 @@
 |[SaveSingleTaskForUpdateProhibitionLock](intl.zh-CN/API 参考/域名管理接口/提交禁止更新锁任务.md#)|提交禁止更新锁任务|
 |[SaveSingleTaskForUpdatingContactInfo](intl.zh-CN/API 参考/域名管理接口/提交域名信息修改任务.md#)|提交域名信息修改任务|
 |[QueryDnsHost](intl.zh-CN/API 参考/域名管理接口/查询域名DnsHost.md#)|查询域名dnshost|
+|[SaveSingleTaskForAddingDSRecord](intl.zh-CN/API 参考/域名管理接口/提交创建DS记录任务.md#)|提交创建DS记录任务|
+|[SaveSingleTaskForModifyingDSRecord](intl.zh-CN/API 参考/域名管理接口/提交修改DS记录任务.md#)|提交修改DS记录任务|
+|[SaveSingleTaskForDeletingDSRecord](intl.zh-CN/API 参考/域名管理接口/提交删除DS记录任务.md#)|提交删除DS记录任务|
+|[SaveSingleTaskForSynchronizingDSRecord](intl.zh-CN/API 参考/域名管理接口/提交同步DS记录任务.md#)|提交同步DS记录任务|
+|[SaveSingleTaskForAssociatingEns](intl.zh-CN/API 参考/域名管理接口/提交绑定Ens地址任务.md#)|提交绑定Ens地址任务|
+|[QueryEnsAssociation](intl.zh-CN/API 参考/域名管理接口/查询Ens系统中绑定的地址.md#)|查询Ens系统中绑定的地址|
+|[QueryDSRecord](intl.zh-CN/API 参考/域名管理接口/查询域名DS记录.md#)|查询域名DS记录|
+|[ScrollDomainList](intl.zh-CN/API 参考/域名管理接口/翻页遍历域名列表.md#)|翻页遍历域名列表|
+|[QueryDomainByDomainName](intl.zh-CN/API 参考/域名管理接口/按域名查询域名信息.md#)|按域名查询域名信息|
+|[SaveSingleTaskForDisassociatingEns](intl.zh-CN/API 参考/域名管理接口/提交解绑Ens地址任务.md#)|提交解绑Ens地址任务|
+|[QueryLocalEnsAssociation](intl.zh-CN/API 参考/域名管理接口/查询阿里云系统中记录的ens绑定地址.md#)|查询阿里云系统中记录的ens绑定地址|
 
 ## 信息模板接口 {#section_zdt_d3b_b2b .section}
 
