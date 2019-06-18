@@ -62,6 +62,8 @@
 |[QueryDomainByDomainName](intl.zh-CN/API 参考/域名管理接口/按域名查询域名信息.md#)|按域名查询域名信息|
 |[SaveSingleTaskForDisassociatingEns](intl.zh-CN/API 参考/域名管理接口/提交解绑Ens地址任务.md#)|提交解绑Ens地址任务|
 |[QueryLocalEnsAssociation](intl.zh-CN/API 参考/域名管理接口/查询阿里云系统中记录的ens绑定地址.md#)|查询阿里云系统中记录的ens绑定地址|
+|[SaveSingleTaskForSaveArtExtension](intl.zh-CN/API 参考/域名管理接口/提交创建Art扩展信息任务.md#)|提交创建Art扩展信息任务|
+|[QueryArtExtension](intl.zh-CN/API 参考/域名管理接口/查询Art扩展信息.md#)|查询Art扩展信息|
 
 ## 信息模板接口 {#section_zdt_d3b_b2b .section}
 
