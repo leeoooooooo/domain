@@ -4,7 +4,7 @@ SaveSingleTaskForSaveArtExtension：提交创建Art扩展信息任务。
 
 ## 描述 {#section_2zn_io1_y03 .section}
 
-提交创建Art扩展信息任务。任务执行结果请通过查询任务详情[QueryTaskDetailList](https://help.aliyun.com/document_detail/67710.html)
+提交创建Art扩展信息任务。任务执行结果请通过查询任务详情[QueryTaskDetailList](intl.zh-CN/API 参考/域名管理接口/查询任务详情.md#)。
 
 ## 请求参数 {#section_0bf_fj7_nm5 .section}
 
