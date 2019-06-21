@@ -4,7 +4,7 @@ SaveSingleTaskForSynchronizingDSRecord：提交同步DS记录任务。
 
 ## 描述 {#section_c33_v4z_cqv .section}
 
-提交同步DS记录任务。任务执行结果请通过查询任务详情[QueryTaskDetailList](https://help.aliyun.com/document_detail/67710.html)
+提交同步DS记录任务。任务执行结果请通过查询任务详情[QueryTaskDetailList](intl.zh-CN/API 参考/域名管理接口/查询任务详情.md#)。
 
 ## 请求参数 {#section_js3_ab4_wvm .section}
 
