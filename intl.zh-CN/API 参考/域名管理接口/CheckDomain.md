@@ -1,0 +1,70 @@
+# CheckDomain {#concept_nds_myk_c2b .concept}
+
+CheckDomain：根据传入参数检查域名是否可以注册。域名合法性判断参见 [域名合法性](intl.zh-CN/API 参考/附录/域名合法性.md#)。
+
+## 请求参数 {#section_nmf_ybl_c2b .section}
+
+公共请求参数，详见 [公共参数](intl.zh-CN/API 参考/调用方式/公共参数.md#)。
+
+|名称|类型|是否必须|描述|
+|:-|:-|:---|:-|
+|Action|String|是|操作接口名，系统规定参数，取值：CheckDomain。|
+|DomainName|String|是|域名名称。|
+
+## 返回参数 {#section_s22_riy_m86 .section}
+
+|名称|类型|描述|
+|:-|:-|:-|
+|RequestId|String|唯一请求识别码。|
+|DomainName|String|所查询域名名称。|
+|Reason|String|不可注册原因。|
+|Premium|Boolean|是否是溢价词。可能值：true 是；false 否。|
+|Price|Long|溢价词注册价格。|
+|DynamicCheck|Boolean|是否动态询价|
+
+## 错误码 {#section_ap3_ycl_c2b .section}
+
+对于所有接口的通用性错误，请参考 [错误代码表](intl.zh-CN/API 参考/附录/错误代码表.md#)。
+
+|错误代码|描述|HTTP状态码|语义|
+|:---|:-|:------|:-|
+|Failed|Query failed.|400|查询失败。|
+|QueryRegistryFailed|Query registry failed.|400|查询注册局失败。|
+|Busy|Server is busy, please try again later.|400|系统忙。|
+|InvaildParameter|The parameter is invaild.|400|非法参数。|
+
+## 示例 {#section_gpk_cdl_c2b .section}
+
+请求示例
+
+``` {#codeblock_6wh_rwe_wuj}
+http://domain-intl.aliyuncs.com/?Action=CheckDomain
+&DomainName=abc.com
+&<公共请求参数>
+```
+
+返回示例
+
+-   XML示例
+
+``` {#codeblock_swg_5i4_bp5}
+<CheckDomain>
+    <RequestId>BA7A4FD4-EB9A-4A20-BB0C-9AEB15634DC1</RequestId>
+    <DomainName>abc.com</DomainName>
+    <Avail>0</Avail>
+    <Premium>false</Premium>
+</CheckDomain>
+```
+
+-   JSON 示例
+
+``` {#codeblock_vfk_07b_0md}
+{
+    "RequestId": "BA7A4FD4-EB9A-4A20-BB0C-9AEB15634DC1",
+    "DomainName": "abc.com",
+    "Avail": 0,
+    "Premium": false
+}
+```
+
+
