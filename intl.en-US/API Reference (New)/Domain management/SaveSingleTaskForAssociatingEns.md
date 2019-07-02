@@ -4,7 +4,7 @@ SaveSingleTaskForAssociatingEns: submits a task for associating an Ethereum wall
 
 ## Description {#section_ev5_eta_oey .section}
 
-You can call this operation to submit a task for associating an Ethereum wallet address with a domain. You can call the [QueryTaskDetailList](https://help.aliyun.com/document_detail/67710.html) operation to query the task execution result.
+You can call this operation to submit a task for associating an Ethereum wallet address with a domain. You can call the [QueryTaskDetailList](https://www.alibabacloud.com/help/doc-detail/67710.htm) operation to query the task execution result.
 
 ## Request parameters {#section_16p_fly_nto .section}
 
