@@ -4,7 +4,7 @@ SaveSingleTaskForSaveArtExtension: submits a task for configuring the extension 
 
 ## Description {#section_2zn_io1_y03 .section}
 
-You can call this operation to submit a task for configuring the extension information about an .art domain. You can call the [QueryTaskDetailList](https://help.aliyun.com/document_detail/67710.html) operation to query the task execution results.
+You can call this operation to submit a task for configuring the extension information about an .art domain. You can call the [QueryTaskDetailList](https://www.alibabacloud.com/help/doc-detail/67710.htm) operation to query the task execution results.
 
 ## Request parameters {#section_0bf_fj7_nm5 .section}
 
