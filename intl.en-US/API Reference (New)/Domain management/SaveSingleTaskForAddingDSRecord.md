@@ -4,7 +4,7 @@ SaveSingleTaskForAddingDSRecord: submits a task for creating a DS record.
 
 ## Description {#section_9bb_kcu_x9e .section}
 
-You can call this operation to submit a task for creating a DS record. You can call the [QueryTaskDetailList](https://help.aliyun.com/document_detail/67710.html) operation to query the task execution result.
+You can call this operation to submit a task for creating a DS record. You can call the [QueryTaskDetailList](https://www.alibabacloud.com/help/doc-detail/67710.htm) operation to query the task execution result.
 
 ## Request parameters {#section_eek_rtc_c45 .section}
 
