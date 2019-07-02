@@ -4,7 +4,7 @@ SaveSingleTaskForDeletingDSRecord: submits a task for deleting a DS record.
 
 ## Description {#section_r27_f0z_3sr .section}
 
-You can call this operation to submit a task for deleting a DS record. You can call the [QueryTaskDetailList](https://help.aliyun.com/document_detail/67710.html) operation to query the task execution result.
+You can call this operation to submit a task for deleting a DS record. You can call the [QueryTaskDetailList](https://www.alibabacloud.com/help/doc-detail/67710.htm) operation to query the task execution result.
 
 ## Request parameters {#section_oqj_c9k_6ed .section}
 
