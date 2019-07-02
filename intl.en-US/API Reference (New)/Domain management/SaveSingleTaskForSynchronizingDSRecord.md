@@ -4,7 +4,7 @@ SaveSingleTaskForSynchronizingDSRecord: submits a task for synchronizing the DS 
 
 ## Description {#section_c33_v4z_cqv .section}
 
-You can call this operation to submit a task for synchronizing the DS records of a domain. You can call the [QueryTaskDetailList](https://help.aliyun.com/document_detail/67710.html) operation to query the task execution result.
+You can call this operation to submit a task for synchronizing the DS records of a domain. You can call the [QueryTaskDetailList](https://www.alibabacloud.com/help/doc-detail/67710.htm) operation to query the task execution result.
 
 ## Request parameters {#section_js3_ab4_wvm .section}
 
