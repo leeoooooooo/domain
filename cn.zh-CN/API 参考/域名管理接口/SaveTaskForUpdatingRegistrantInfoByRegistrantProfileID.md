@@ -30,7 +30,7 @@
 |:---|:-|:------|:-|
 |ParameterIllegal|Parameter illegal.|400|参数错误。|
 |NetworkIOError|Network IO Error.|400|网络I/O异常。|
-|contactTemplateRealNamedNotExist|The Registrant Profile completed Real-name verification does not exist.|400|域名不存在。|
+|contactTemplateRealNamedNotExist|The Registrant Profile completed Real-name verification does not exist.|400|域名实名认证的联系人信息模板不存在。|
 |TaskIsBeingProcessed|An operation is being processed. Please try again later.|400|该域名存在正在处理中的操作，请稍后再试。|
 
 ## 示例 {#section_ks1_fqr_b2b .section}
