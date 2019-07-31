@@ -27,7 +27,6 @@ SaveSingleTaskForModifyingDSRecord：提交修改DS记录任务。
 -   254 private algorithm OID
 
  |
-|Digest|String|是|f58fa917424383934c7b0cf1a90f61d692745680fa06f5ecdbe0924e86de9598|摘要值|
 |DigestType|Integer|是|2|摘要算法类型，详见[Delegation Signer \(DS\) Resource Record \(RR\) Type Digest Algorithms](https://www.iana.org/assignments/ds-rr-types/ds-rr-types.xhtml)。枚举值范围： -   1 SHA-1
 -   2 SHA-256
 -   3 GOST R 34.11-94
