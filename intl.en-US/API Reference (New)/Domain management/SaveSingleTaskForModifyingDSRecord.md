@@ -4,7 +4,7 @@ SaveSingleTaskForModifyingDSRecord: submits a task for modifying a DS record.
 
 ## Description {#section_442_uh6_iiv .section}
 
-You can call this operation to submit a task for modifying a DS record. You can the [QueryTaskDetailList](reseller.en-US/API Reference (New)/Domain management/QueryTaskDetailList.md#) operation to query the task execution result.
+You can call this operation to submit a task for modifying a DS record. You can the [QueryTaskDetailList](intl.en-US/API Reference (New)/Domain management/QueryTaskDetailList.md#) operation to query the task execution result.
 
 ## Request parameters {#section_coa_n0p_zxx .section}
 
