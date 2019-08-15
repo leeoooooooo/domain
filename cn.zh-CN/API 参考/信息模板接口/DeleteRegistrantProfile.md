@@ -1,57 +1,72 @@
-# DeleteRegistrantProfile {#concept_wcr_vyb_b2b .concept}
+# DeleteRegistrantProfile {#doc_api_Domain_DeleteRegistrantProfile .reference}
 
-删除指定的域名信息模板。
+调用DeleteRegistrantProfile删除指定的域名信息模板。
 
-## 请求参数 {#section_g5r_1zb_b2b .section}
+## 调试 {#api_explorer .section}
 
-公共请求参数，详见[公共参数](intl.zh-CN/API 参考/调用方式/公共参数.md#)。
+[您可以在OpenAPI Explorer中直接运行该接口，免去您计算签名的困扰。运行成功后，OpenAPI Explorer可以自动生成SDK代码示例。](https://api.aliyun.com/#product=Domain&api=DeleteRegistrantProfile&type=RPC&version=2018-01-29)
 
-|名称|类型|是否必须|描述|
-|:-|:-|:---|:-|
-|Action|String|是|操作接口名，系统规定参数，取值：DeleteRegistrantProfile。|
-|RegistrantProfileId|Long|是|域名信息模板ID。|
+## 请求参数 {#parameters .section}
 
-**返回参数** 
+|名称|类型|是否必选|示例值|描述|
+|--|--|----|---|--|
+|Action|String|是|DeleteRegistrantProfile|系统规定参数。取值：**DeleteRegistrantProfile**。
 
-|名称|类型|描述|
-|:-|:-|:-|
-|RequestId|String|唯一请求识别码。|
+ |
+|RegistrantProfileId|Long|是|3600000|信息模板编号。
 
-**错误码** 
+ |
+|Lang|String|否|en|接口返回错误信息语言。取值：
 
-|错误代码|描述|HTTP状态码|语义|
-|:---|:-|:------|:-|
-|ParameterIllegal|Parameter illegal.|400|参数错误。|
-|NetworkIOError|Network IO Error.|400|网络I/O异常。|
-|ContactTemplateNotExist|ContactTemplateNotExist|400|联系人信息模板不存在。|
+ -   **zh**：中文；
+-   **en**：英文。
 
-## 示例 {#section_l4n_kzb_b2b .section}
+ 默认为**en**。
 
-**请求示例**
+ |
+|UserClientIp|String|否|127.0.0.1|用户IP。
 
-``` {#codeblock_z8y_8nx_529}
-http://domain-intl.aliyuncs.com/?Action=DeleteRegistrantProfile
+ |
+
+## 返回数据 {#resultMapping .section}
+
+|名称|类型|示例值|描述|
+|--|--|---|--|
+|RequestId|String|C50E41A0-09F1-4491-8DB8-AF55BD2D0CC8|唯一请求识别码。
+
+ |
+
+## 示例 {#demo .section}
+
+请求示例
+
+``` {#request_demo}
+
+http(s)://[Endpoint]/?Action=DeleteRegistrantProfile
 &RegistrantProfileId=3600000
 &<公共请求参数>
+
 ```
 
-**返回示例**
+正常返回示例
 
--   XML示例
+`XML` 格式
 
-    ``` {#codeblock_zv9_ssr_sdy}
-    <?xml version='1.0' encoding='UTF-8'?>
-    <DeleteRegistrantProfileResponse>
-        <RequestId>C50E41A0-09F1-4491-8DB8-AF55BD2D0CC8</RequestId>
-    </DeleteRegistrantProfileResponse>
-    ```
+``` {#xml_return_success_demo}
+<DeleteRegistrantProfileResponse>
+      <RequestId>C50E41A0-09F1-4491-8DB8-AF55BD2D0CC8</RequestId>
+</DeleteRegistrantProfileResponse>
+```
 
--   JSON示例
+`JSON` 格式
 
-    ``` {#codeblock_ug4_5fz_1wz}
-    {
-      "RequestId": "0B22A572-0A57-4510-B233-4620D5DE33FE"
-    }
-    ```
+``` {#json_return_success_demo}
+{
+	"RequestId":"0B22A572-0A57-4510-B233-4620D5DE33FE"
+}
+```
 
+## 错误码 { .section}
+
+访问[错误中心](https://error-center.aliyun.com/status/product/Domain)查看更多错误码。
 
