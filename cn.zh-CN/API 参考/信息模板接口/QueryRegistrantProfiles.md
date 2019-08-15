@@ -1,171 +1,281 @@
-# QueryRegistrantProfiles {#concept_l4w_rzb_b2b .concept}
+# QueryRegistrantProfiles {#doc_api_Domain_QueryRegistrantProfiles .reference}
 
-查询自己账户下的域名信息模板。
+调用QueryRegistrantProfiles查询自己账户下的域名信息模板。
 
-## 请求参数 {#section_dxl_j1c_b2b .section}
+## 调试 {#api_explorer .section}
 
-公共请求参数，详见[公共参数](intl.zh-CN/API 参考/调用方式/公共参数.md#)。
+[您可以在OpenAPI Explorer中直接运行该接口，免去您计算签名的困扰。运行成功后，OpenAPI Explorer可以自动生成SDK代码示例。](https://api.aliyun.com/#product=Domain&api=QueryRegistrantProfiles&type=RPC&version=2018-01-29)
 
-|名称|类型|是否必须|描述|
-|:-|:-|:---|:-|
-|Action|String|是|操作接口名，系统规定参数，取值：QueryRegistrantProfiles。|
-|RegistrantOrganization|String|否|域名持有者名称。|
-|RegistrantProfileId|Long|否|联系人模板ID。|
-|DefaultRegistrantProfile|Boolean|否|是否默认模板。|
-|PageNum|Integer|否|分页的页码。|
-|PageSize|Integer|否|分页的每页记录数。|
+## 请求参数 {#parameters .section}
 
-## 返回参数 {#section_nxv_w1c_b2b .section}
+|名称|类型|是否必选|示例值|描述|
+|--|--|----|---|--|
+|Action|String|是|QueryRegistrantProfiles|系统规定参数。取值：**QueryRegistrantProfiles**。
 
-|名称|类型|描述|
-|:-|:-|:-|
-|RequestId|String|唯一请求识别码。|
-|TotalItemNum|Integer|总记录数。|
-|CurrentPageNum|Integer|当前页码。|
-|TotalPageNum|Integer|总页码。|
-|PageSize|Integer|每页的记录数。|
-|PrePage|Boolean|是否有上一页。|
-|NextPage|Boolean|是否有下一页。|
-|RegistrantProfile|[RegistrantProfileType](intl.zh-CN/API 参考/信息模板接口/QueryRegistrantProfiles.md#table_s4s_tmq_b2b)|域名信息模板列表。请参见下表：RegistrantProfileType。|
+ |
+|DefaultRegistrantProfile|Boolean|否|false|是否默认模板。取值：
 
-|名称|类型|描述|
-|:-|:-|:-|
-|RegistrantProfileId|Long|域名信息模板ID|
-|CreateTime|String|创建时间|
-|UpdateTime|String|更新时间|
-|Telephone|String|电话|
-|DefaultRegistrantProfile|Boolean|是否默认模板|
-|Country|String|国家代码 如CN，US|
-|Province|String|省份|
-|TelArea|String|电话国家代码|
-|City|String|城市|
-|PostalCode|String|邮政编码|
-|Email|String|Email|
-|Address|String|具体的地址|
-|RegistrantName|String|联系人名称|
-|RegistrantOrganization|String|持有者名称|
-|TelExt|String|电话分机|
-|EmailVerificationStatus|Integer|邮箱验证状态。取值范围：0 未验证；1 已验证|
+ -   **true**：默认模板；
+-   **false**：非默认模板。
 
-**错误码** 
+ |
+|Email|String|否|82106\*\*\*\*@qq.com|电子邮箱。
 
-|错误代码|描述|HTTP状态码|语义|
-|----|--|-------|--|
-|ParameterIllegal|Parameter illegal.|400|参数错误。|
-|NetworkIOError|Network IO Error.|400|网络I/O异常。|
+ |
+|Lang|String|否|en|接口返回错误信息语言。取值：
 
-## 示例 {#section_vgl_jbc_b2b .section}
+ -   **zh**：中文；
+-   **en**：英文。
 
-**请求示例**
+ 默认为**en**。
 
-``` {#codeblock_w1x_fv2_6cs}
-http://domain-intl.aliyuncs.com/?Action=QueryRegistrantProfiles
+ |
+|PageNum|Integer|否|1|分页的页码。
+
+ |
+|PageSize|Integer|否|500|分页的每页记录数。
+
+ |
+|RealNameStatus|String|否|SUCCEED|实名认证状态。取值：
+
+ -   **FAILED**：实名认证失败；
+-   **SUCCEED**：实名认证成功；
+-   **NONAUDIT**：未实名认证；
+-   **AUDITING**：审核中。
+
+ |
+|RegistrantOrganization|String|否|li si|域名持有者名称。
+
+ |
+|RegistrantProfileId|Long|否|1234567|联系人模板ID。
+
+ |
+|RegistrantProfileType|String|否|common|信息模板类型，该字段不用填写。
+
+ |
+|RegistrantType|String|否|1|域名持有者类型。取值：
+
+ -   **1**：个人；
+-   **2**： 企业。
+
+ |
+|UserClientIp|String|否|127.0.0.1|用户IP。
+
+ |
+|ZhRegistrantOrganization|String|否|李四|中文持有者名称。
+
+ |
+
+## 返回数据 {#resultMapping .section}
+
+|名称|类型|示例值|描述|
+|--|--|---|--|
+|CurrentPageNum|Integer|1|当前页码。
+
+ |
+|NextPage|Boolean|true|是否有下一页。
+
+ |
+|PageSize|Integer|2|每页的记录数。
+
+ |
+|PrePage|Boolean|false|是否有上一页。
+
+ |
+|RegistrantProfiles| | |域名信息模板列表。
+
+ |
+|Address|String|zhe jiang sheng hang zhou shi shi li qu shi li zhen shi li da sha 1001 hao|具体的地址。
+
+ |
+|City|String|hang zhou shi|城市。
+
+ |
+|Country|String|CN|国家代码，如**CN**，**US**。
+
+ |
+|CreateTime|String|2019-02-18 10:46:47|创建时间。
+
+ |
+|DefaultRegistrantProfile|Boolean|false|是否为默认模板。
+
+ |
+|Email|String|82106\*\*\*\*@qq.com|电子邮箱。
+
+ |
+|EmailVerificationStatus|Integer|1|邮箱验证状态。取值：
+
+ -   **0**：未验证；
+-   **1**：已验证。
+
+ |
+|PostalCode|String|310024|邮政编码。
+
+ |
+|Province|String|zhe jiang|省份。
+
+ |
+|RealNameStatus|String|SUCCEED|实名认证状态。取值：
+
+ -   **FAILED**：实名认证失败；
+-   **SUCCEED**：实名认证成功；
+-   **NONAUDIT**：未实名认证；
+-   **AUDITING**：审核中。
+
+ |
+|RegistrantName|String|ls|联系人名称。
+
+ |
+|RegistrantOrganization|String|pop|持有者名称。
+
+ |
+|RegistrantProfileId|Long|1000001|域名信息模板ID。
+
+ |
+|RegistrantProfileType|String|common|信息模板类型。
+
+ |
+|RegistrantType|String|1|持有者类型。取值：
+
+ -   **1**：个人；
+-   **2**：企业。
+
+ |
+|TelArea|String|86|电话国家代码。
+
+ |
+|TelExt|String|1234|电话分机。
+
+ |
+|Telephone|String|1829756\*\*\*\*|电话。
+
+ |
+|UpdateTime|String|2019-03-15 15:32:45|更新时间。
+
+ |
+|ZhAddress|String|浙江省杭州市示例区示例镇示例大厦1001号|中文地址。
+
+ |
+|ZhCity|String|杭州市|中文城市。
+
+ |
+|ZhProvince|String|浙江|中文省份。
+
+ |
+|ZhRegistrantName|String|李四|中文联系人名称。
+
+ |
+|ZhRegistrantOrganization|String|李四|中文持有者名称。
+
+ |
+|RequestId|String|94053D79-7455-4F71-BF06-20EB2DEDE6BD|唯一请求识别码。
+
+ |
+|TotalItemNum|Integer|9|总记录数。
+
+ |
+|TotalPageNum|Integer|1|总页码。
+
+ |
+
+## 示例 {#demo .section}
+
+请求示例
+
+``` {#request_demo}
+
+http(s)://[Endpoint]/?Action=QueryRegistrantProfiles
 &<公共请求参数>
+
 ```
 
-**返回示例**
+正常返回示例
 
--   XML示例
+`XML` 格式
 
-    ``` {#codeblock_bkw_n8i_3u5}
-    <?xml version='1.0' encoding='UTF-8'?>
-    <QueryRegistrantProfilesResponse>
-        <TotalItemNum>11</TotalItemNum>
-        <PageSize>2</PageSize>
-        <CurrentPageNum>1</CurrentPageNum>
-        <RequestId>1200F9CE-0000-4C5F-86C2-F8CF3828670D</RequestId>
-        <PrePage>false</PrePage>
-        <RegistrantProfiles>
-            <RegistrantProfile>
-                <Telephone>11119999</Telephone>
-                <DefaultRegistrantProfile>true</DefaultRegistrantProfile>
-                <EmailVerificationStatus>0</EmailVerificationStatus>
-                <UpdateTime>Dec 25,2017 03:21:59</UpdateTime>
-                <Country>US</Country>
-                <Province>qa</Province>
-                <TelArea>010</TelArea>
-                <City>us</City>
-                <RegistrantProfileId>5170612</RegistrantProfileId>
-                <PostalCode>010101</PostalCode>
-                <Email>xxx@xxx.com</Email>
-                <CreateTime>Dec 25,2017 03:20:30</CreateTime>
-                <Address>aqqqq</Address>
-                <RegistrantName>pop</RegistrantName>
-                <RegistrantOrganization>popus-x</RegistrantOrganization>
-            </RegistrantProfile>
-            <RegistrantProfile>
-                <Telephone>15600000000</Telephone>
-                <DefaultRegistrantProfile>false</DefaultRegistrantProfile>
-                <EmailVerificationStatus>0</EmailVerificationStatus>
-                <UpdateTime>Nov 22,2017 09:20:40</UpdateTime>
-                <Country>MO</Country>
-                <Province>Beijing</Province>
-                <TelArea>853</TelArea>
-                <City>Beijing</City>
-                <RegistrantProfileId>5049715</RegistrantProfileId>
-                <PostalCode>100086</PostalCode>
-                <Email>abctest@xx.com</Email>
-                <CreateTime>Nov 22,2017 09:20:40</CreateTime>
-                <Address>Chaoyang District</Address>
-                <RegistrantName>lk</RegistrantName>
-                <RegistrantOrganization>lk</RegistrantOrganization>
-            </RegistrantProfile>
-        </RegistrantProfiles>
-        <TotalPageNum>6</TotalPageNum>
-        <NextPage>true</NextPage>
-    </QueryRegistrantProfilesResponse>
-    ```
+``` {#xml_return_success_demo}
+<QueryRegistrantProfilesResponse>
+    <TotalItemNum>9</TotalItemNum>
+    <PageSize>500</PageSize>
+    <CurrentPageNum>1</CurrentPageNum>
+    <RequestId>94053D79-7455-4F71-BF06-20EB2DEDE6BD</RequestId>
+    <PrePage>false</PrePage>
+    <RegistrantProfiles>
+        <RegistrantProfile>
+            <ZhCity>杭州市</ZhCity>
+            <ZhRegistrantOrganization>李四</ZhRegistrantOrganization>
+            <Telephone>1829756****</Telephone>
+            <ZhProvince>浙江</ZhProvince>
+            <DefaultRegistrantProfile>false</DefaultRegistrantProfile>
+            <EmailVerificationStatus>1</EmailVerificationStatus>
+            <UpdateTime>2019-03-15 15:32:45</UpdateTime>
+            <RealNameStatus>SUCCEED</RealNameStatus>
+            <Country>CN</Country>
+            <Province>zhe jiang</Province>
+            <ZhRegistrantName>李四</ZhRegistrantName>
+            <City>hang zhou shi</City>
+            <TelArea>86</TelArea>
+            <RegistrantProfileId>1000001</RegistrantProfileId>
+            <PostalCode>310024</PostalCode>
+            <RegistrantType>1</RegistrantType>
+            <Email>82106****@qq.com</Email>
+            <CreateTime>2019-02-18 10:46:47</CreateTime>
+            <Address>zhe jiang sheng hang zhou shi shi li qu shi li zhen shi li da sha 1001 hao</Address>
+            <RegistrantName>li si</RegistrantName>
+            <RegistrantOrganization>li si</RegistrantOrganization>
+            <RegistrantProfileType>common</RegistrantProfileType>
+            <ZhAddress>浙江省杭州市示例区示例镇示例大厦1001号</ZhAddress>
+        </RegistrantProfile>
+    </RegistrantProfiles>
+    <TotalPageNum>1</TotalPageNum>
+    <NextPage>false</NextPage>
+</QueryRegistrantProfilesResponse>
+```
 
--   JSON示例
+`JSON` 格式
 
-    ``` {#codeblock_fqc_4ld_yse}
-    {
-      "CurrentPageNum": 1,
-      "NextPage": true,
-      "PageSize": 2,
-      "PrePage": false,
-      "RegistrantProfiles": {
-        "RegistrantProfile": [
-          {
-            "Address": "aqqqq",
-            "City": "us",
-            "Country": "US",
-            "CreateTime": "Dec 25,2017 03:20:30",
-            "DefaultRegistrantProfile": true,
-            "Email": "a@xxx.com",
-            "EmailVerificationStatus": 0,
-            "PostalCode": "010101",
-            "Province": "qa",
-            "RegistrantName": "x",
-            "RegistrantOrganization": "xxx",
-            "RegistrantProfileId": 5170612,
-            "TelArea": "010",
-            "Telephone": "11119999",
-            "UpdateTime": "Dec 25,2017 03:21:59"
-          },
-          {
-            "Address": "xx District",
-            "City": "Beijing",
-            "Country": "MO",
-            "CreateTime": "Nov 22,2017 09:20:40",
-            "DefaultRegistrantProfile": false,
-            "Email": "abctest@xxx.com",
-            "EmailVerificationStatus": 0,
-            "PostalCode": "100086",
-            "Province": "Beijing",
-            "RegistrantName": "lk",
-            "RegistrantOrganization": "lk",
-            "RegistrantProfileId": 5049715,
-            "TelArea": "853",
-            "Telephone": "15600000000",
-            "UpdateTime": "Nov 22,2017 09:20:40"
-          }
-        ]
-      },
-      "RequestId": "8843D641-7520-4399-9FCC-BFB90C068E6F",
-      "TotalItemNum": 11,
-      "TotalPageNum": 6
-    }
-    ```
+``` {#json_return_success_demo}
+{
+	"TotalItemNum":9,
+	"CurrentPageNum":1,
+	"PageSize":500,
+	"RequestId":"94053D79-7455-4F71-BF06-20EB2DEDE6BD",
+	"PrePage":false,
+	"TotalPageNum":1,
+	"RegistrantProfiles":{
+		"RegistrantProfile":[
+			{
+				"ZhCity":"杭州市",
+				"ZhRegistrantOrganization":"李四",
+				"Telephone":"1829756****",
+				"ZhProvince":"浙江",
+				"DefaultRegistrantProfile":false,
+				"EmailVerificationStatus":1,
+				"UpdateTime":"2019-03-15 15:32:45",
+				"RealNameStatus":"SUCCEED",
+				"Country":"CN",
+				"Province":"zhe jiang",
+				"ZhRegistrantName":"李四",
+				"City":"hang zhou shi",
+				"TelArea":"86",
+				"RegistrantProfileId":1000001,
+				"PostalCode":"310024",
+				"Email":"82106****@qq.com",
+				"RegistrantType":"1",
+				"Address":"zhe jiang sheng hang zhou shi shi li qu shi li zhen shi li da sha 1001 hao",
+				"CreateTime":"2019-02-18 10:46:47",
+				"RegistrantName":"li si",
+				"RegistrantOrganization":"li si",
+				"RegistrantProfileType":"common",
+				"ZhAddress":"浙江省杭州市示例区示例镇示例大厦1001号"
+			}
+		]
+	},
+	"NextPage":false
+}
+```
 
+## 错误码 { .section}
+
+访问[错误中心](https://error-center.aliyun.com/status/product/Domain)查看更多错误码。
 
