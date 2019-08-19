@@ -22,7 +22,7 @@ Follow these guidelines when you enter the information:
 2.  Certification number: Enter the resident identity card number.
     -   The certification number must be half-width characters \(in English input mode\).
         -   If full-width characters are found in a real-name authentication request submitted before July 5, 2019, the authentication fails.
-        -   If full-width characters are found in a real-name authentication request submitted after July 5, 2019, the application review period will be extended. Alibaba Cloud and the review organization need to communicate and review the application. The time required to review your application will vary depending on the preceding requirements.
+        -   If full-width characters are found in a real-name authentication request submitted on or after July 5, 2019, the application review period will be extended. Alibaba Cloud and the review organization need to communicate and review the application. The time required to review your application will vary depending on the preceding requirements.
 
             **Note:** We recommend that you use half-width characters when entering the required information for real-name authentication. If you used full-width characters and want to expedite real-name authentication, we recommend that you create a new registrant profile. In the profile, enter the relevant information by using half-width characters and resubmit the real-name authentication request.
 
@@ -55,7 +55,7 @@ Follow these guidelines when you enter the information:
 2.  Certification number: Enter the complete passport number.
     -   The certification number must be half-width characters \(in English input mode\).
         -   If full-width characters are found in a real-name authentication request submitted before July 5, 2019, the authentication fails.
-        -   If full-width characters are found in a real-name authentication request submitted after July 5, 2019, the application review period will be extended. Alibaba Cloud and the review organization need to communicate and review the application. The time required to review your application will vary depending on the preceding requirements.
+        -   If full-width characters are found in a real-name authentication request submitted on or after July 5, 2019, the application review period will be extended. Alibaba Cloud and the review organization need to communicate and review the application. The time required to review your application will vary depending on the preceding requirements.
 
             **Note:** We recommend that you use half-width characters when entering the required information for real-name authentication. If you used full-width characters and want to expedite real-name authentication, we recommend that you create a new registrant profile. In the profile, enter the relevant information by using half-width characters and resubmit the real-name authentication request.
 
