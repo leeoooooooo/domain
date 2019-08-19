@@ -9,7 +9,6 @@ Domain holders belonging to different regions must use different certificates to
 |Region|Certificate type|Description|
 |------|----------------|-----------|
 |Mainland China regions|[Business license](#section_wsm_jf3_wgb)|Organization domain holders that are based in mainland China can use the business license or organization code certificate for real-name authentication.|
-|[\#section\_bjh\_pck\_wgb](#section_bjh_pck_wgb)|
 |[Organization code certificate](#section_f4l_xrd_xgb)|
 |Non-mainland China regions|[Other valid certificates](#section_jlt_gqz_zgb)|Organization domain holders that are not based in mainland China can use other valid certificates for real-name authentication, such as a certificate of incorporation.|
 
