@@ -28,7 +28,7 @@ Follow these guidelines when you enter the information:
 3.  Certification number: You must enter the unified social credit code that is contained in the business license. However, if the business license does not contain a unified social credit code, enter the registration number on the business license.
     -   The certification number must be half-width characters \(in English input mode\).
         -   If full-width characters are found in a real-name authentication request submitted before July 5, 2019, the authentication fails.
-        -   If full-width characters are found in a real-name authentication request submitted after July 5, 2019, the application review period will be extended. Alibaba Cloud and the review organization need to communicate and review the application. The time required to review your application will vary depending on the preceding requirements.
+        -   If full-width characters are found in a real-name authentication request submitted on or after July 5, 2019, the application review period will be extended. Alibaba Cloud and the review organization need to communicate and review the application. The time required to review your application will vary depending on the preceding requirements.
 
             **Note:** We recommend that you use half-width characters when entering the required information for real-name authentication. If you used full-width characters and want to expedite real-name authentication, we recommend that you create a new registrant profile. In the profile, enter the relevant information by using half-width characters and resubmit the real-name authentication request.
 
@@ -48,11 +48,11 @@ Follow these guidelines when you enter the information:
 
     -   You must submit a complete and clear scanned copy of the license with no cover or smudges. Include the borders of the license, the national emblem, and the seal affixed by the authority that manages the business license.
 5.  Issue date.
-    -   It requires a minimum of 10 days for the verification authority to issue a new license. We recommend that you implement real-name authentication after you receive your license.
+    -   It requires a minimum of 10 days for the verification authority to issue a new certificate. We recommend that you implement real-name authentication after you receive your certificate.
 
-    -   We recommend you check that your business license is still valid before proceeding.
+    -   We recommend you check that your certificate is still valid before proceeding.
 
-        **Note:** Real-name authentication may fail if your business license is due to expire.
+        **Note:** Real-name authentication may fail if your certificate is due to expire.
 
 
 ## Organization code certificate {#section_f4l_xrd_xgb .section}
@@ -69,7 +69,7 @@ Follow these guidelines when you enter the information:
 3.  Certification number: Enter the organization code on the organization code certificate.
     -   The certification number must be half-width characters \(in English input mode\).
         -   If full-width characters are found in a real-name authentication request submitted before July 5, 2019, the authentication fails.
-        -   If full-width characters are found in a real-name authentication request submitted after July 5, 2019, the application review period will be extended. Alibaba Cloud and the review organization need to communicate and review the application. The time required to review your application will vary depending on the preceding requirements.
+        -   If full-width characters are found in a real-name authentication request submitted on or after July 5, 2019, the application review period will be extended. Alibaba Cloud and the review organization need to communicate and review the application. The time required to review your application will vary depending on the preceding requirements.
 
             **Note:** We recommend that you use half-width characters when entering the required information for real-name authentication. If you used full-width characters and want to expedite real-name authentication, we recommend that you create a new registrant profile. In the profile, enter the relevant information by using half-width characters and resubmit the real-name authentication request.
 
@@ -85,7 +85,7 @@ Follow these guidelines when you enter the information:
 
         For other formats, use a graphics editor such as Microsoft Paint or Adobe Photoshop to convert the file to JPG or BMP format. **Do not directly change the file extension.**
 
-    -   You must submit a complete and clear scanned copy of the certificate with no cover or smudges. Include the borders of the certificate and the seal affixed by the authority that manages the organization code certificate.
+    -   You must submit a complete and clear scanned copy of the certificate with no cover or smudges. Include the borders of the certificate and the seal affixed by the authority that manages the certificate.
 5.  Validity of the certificate.
     -   It requires a minimum of 10 days for the verification authority to issue a new certificate. We recommend that you implement real-name authentication after you receive your certificate.
 
@@ -107,7 +107,7 @@ Follow these guidelines when you enter the information:
 3.  Certification number: Enter the certificate number or code.
     -   The certification number must be half-width characters \(in English input mode\).
         -   If full-width characters are found in a real-name authentication request submitted before July 5, 2019, the authentication fails.
-        -   If full-width characters are found in a real-name authentication request submitted after July 5, 2019, the application review period will be extended. Alibaba Cloud and the review organization need to communicate and review the application. The time required to review your application will vary depending on the preceding requirements.
+        -   If full-width characters are found in a real-name authentication request submitted on or after July 5, 2019, the application review period will be extended. Alibaba Cloud and the review organization need to communicate and review the application. The time required to review your application will vary depending on the preceding requirements.
 
             **Note:** We recommend that you use half-width characters when entering the required information for real-name authentication. If you used full-width characters and want to expedite real-name authentication, we recommend that you create a new registrant profile. In the profile, enter the relevant information by using half-width characters and resubmit the real-name authentication request.
 
