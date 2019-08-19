@@ -59,7 +59,6 @@ Follow these guidelines when you enter the information:
 
             **Note:** We recommend that you use half-width characters when entering the required information for real-name authentication. If you used full-width characters and want to expedite real-name authentication, we recommend that you create a new registrant profile. In the profile, enter the relevant information by using half-width characters and resubmit the real-name authentication request.
 
-    -   \[DO NOT TRANSLATE\]
 3.  Upload real name certification: Upload a scanned copy of your passport.
 
     **Note:** 
