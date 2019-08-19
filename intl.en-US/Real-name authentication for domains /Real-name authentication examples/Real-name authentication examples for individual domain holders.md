@@ -16,8 +16,6 @@ Individual domain holders who use their resident identity card for real-name aut
 -   Chinese persons who are based in mainland China cannot use their passport to complete the real-name authentication process. We recommend that Chinese persons use their resident identity card and foreign residents use their passport to complete the real-name authentication process.
 -   You can only use your passport for real-name authentication if you are not based in mainland China.
 
-![](images/39339_en-US.png)
-
 Follow these guidelines when you enter the information:
 
 1.  Registrant: the name of the domain holder. Keep it consistent with the name on your resident identity card.
@@ -47,8 +45,6 @@ Individual domain holders that use the passport for real-name authentication mus
 
 -   Chinese natural persons who are based in mainland China cannot use their passport to complete the real-name authentication process. We recommend that Chinese persons use their resident identity card and foreign residents use their passport to complete the real-name authentication process.
 -   You can only use your passport for real-name authentication if you are not based in mainland China.
-
-![](images/39345_en-US.png)
 
 Follow these guidelines when you enter the information:
 
